@@ -76,14 +76,21 @@ UI への反映は間引くことで表示の安定性を確保しています�
 ## 構成
 ```text
 FpsMonitor/
-├─ FpsMonitor.sln
-└─ FpsMonitor/
+├─ .gitignore
 ├─ App.xaml
 ├─ App.xaml.cs
+├─ AssemblyInfo.cs
+├─ FpsMonitor.csproj
+├─ FpsMonitor.csproj.user
+├─ FpsMonitor.slnx
 ├─ MainWindow.xaml
 ├─ MainWindow.xaml.cs
-└─ RollingAverage.cs
-
+├─ README.md
+├─ RollingAverage.cs
+└─ Core/
+   ├─ FpsCounter.cs
+   ├─ FrameDropDetector.cs
+   └─ FrameState.cs
 
 ---
 
